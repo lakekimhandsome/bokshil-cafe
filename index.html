@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bokshil Café — 조용한 오후, 따뜻한 한 잔. 서울 성수동의 감성 카페.">
+  <title>Bokshil Café</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Noto+Sans+KR:wght@300;400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <nav class="nav">
+      <a href="#" class="logo">Bokshil Café</a>
+      <ul class="nav-links">
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#info">Info</a></li>
+        <li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="hero-overlay" aria-hidden="true"></div>
+    <div class="hero-content">
+      <p class="hero-tagline">조용한 오후, 따뜻한 한 잔</p>
+      <h1 class="hero-title">Bokshil Café</h1>
+      <button type="button" class="btn-today" id="btn-today-coffee">
+        오늘의 커피
+      </button>
+      <p class="today-result hidden" id="today-result" aria-live="polite"></p>
+    </div>
+    <div class="scroll-hint" aria-hidden="true">
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <main>
+    <section class="section menu" id="menu">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-label">Signature</span>
+          <h2 class="section-title">Menu</h2>
+          <p class="section-desc">계절과 기분에 맞춰 정성껏 내린 세 가지 시그니처</p>
+        </div>
+        <ul class="menu-grid">
+          <li class="menu-card">
+            <div class="menu-image menu-image--1" aria-hidden="true"></div>
+            <div class="menu-body">
+              <h3 class="menu-name">복실 라떼</h3>
+              <p class="menu-desc">부드러운 우유 거품과 에스프레소의 균형. 카페의 이름처럼 포근한 한 잔.</p>
+              <span class="menu-price">₩6,500</span>
+            </div>
+          </li>
+          <li class="menu-card">
+            <div class="menu-image menu-image--2" aria-hidden="true"></div>
+            <div class="menu-body">
+              <h3 class="menu-name">허니 아몬드 브루</h3>
+              <p class="menu-desc">꿀과 아몬드의 은은한 달콤함. 아이스로 즐기면 더욱 상큼합니다.</p>
+              <span class="menu-price">₩6,000</span>
+            </div>
+          </li>
+          <li class="menu-card">
+            <div class="menu-image menu-image--3" aria-hidden="true"></div>
+            <div class="menu-body">
+              <h3 class="menu-name">시나몬 롤</h3>
+              <p class="menu-desc">갓 구운 시나몬 향과 크림치즈. 커피와 함께하는 오후의 작은 행복.</p>
+              <span class="menu-price">₩5,500</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section info" id="info">
+      <div class="container">
+        <div class="info-grid">
+          <div class="info-block">
+            <span class="section-label">Hours</span>
+            <h2 class="info-title">영업시간</h2>
+            <dl class="hours-list">
+              <div class="hours-row">
+                <dt>월 – 금</dt>
+                <dd>08:00 – 21:00</dd>
+              </div>
+              <div class="hours-row">
+                <dt>토 – 일</dt>
+                <dd>09:00 – 22:00</dd>
+              </div>
+              <div class="hours-row hours-row--note">
+                <dt>브레이크</dt>
+                <dd>15:00 – 16:00 (평일)</dd>
+              </div>
+            </dl>
+          </div>
+          <div class="info-block">
+            <span class="section-label">Location</span>
+            <h2 class="info-title">위치</h2>
+            <address class="location">
+              서울특별시 성동구 성수동2가 315-71<br>
+              Bokshil Café 1층
+            </address>
+            <p class="location-note">성수역 3번 출구에서 도보 5분</p>
+            <a href="https://www.google.com/maps/place/스타벅스+성수점/data=!4m10!1m2!2m1!1z7Iqk7YOA67KF7Iqk!3m6!1s0x357ca536e19b525f:0x4b4e5b1eac6d0a2d!8m2!3d37.5444617!4d127.0554135!15sCgzsiqTtg4DrsoXsiqQiA4gBAVoPIg3siqTtg4Ag67KF7IqkkgELY29mZmVlX3Nob3DgAQA!16s%2Fg%2F11vclvjjzh?entry=ttu&g_ep=EgoyMDI2MDYyMi4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" class="link-map">
+              지도에서 보기 →
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p class="footer-brand">Bokshil Café</p>
+      <p class="footer-copy">&copy; 2026 Bokshil Café. All rights reserved.</p>
+      <a href="https://www.instagram.com/starbuckskorea/" target="_blank" rel="noopener noreferrer" class="btn-instagram"
+        aria-label="Instagram에서 Bokshil Café 팔로우">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+          aria-hidden="true">
+          <rect x="2" y="2" width="20" height="20" rx="5" />
+          <circle cx="12" cy="12" r="4" />
+          <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none" />
+        </svg>
+        Instagram
+      </a>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+
+</html>
